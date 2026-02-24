@@ -108,15 +108,7 @@ class WhoAmI:
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/00ff00/Jos260400" alt="Jos260400's contribution chart"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jos260400&label=Profile%20views&color=brightgreen&style=for-the-badge"/>
-</p>
-
-<p align="center">
-  <img src="https://ssr-contributions-svg.vercel.app/_/Jos260400?chart=3dbar&gap=0.6&scale=2&flatten=0&theme=green&period=yearly&format=svg&weeks=52&dark=true&y=2022"/>
+  <img src="https://ghchart.rshah.org/00ff00/Jos260400" alt="Contribution chart"/>
 </p>
 
 <p align="center">
