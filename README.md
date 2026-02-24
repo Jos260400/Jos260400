@@ -97,18 +97,22 @@ class WhoAmI:
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Jos260400&theme=github_dark&utcOffset=-6"/>
 </p>
 
-## 📅 Contributions by Year
+## 📅 Contributions
 
 <p align="center">
-  <img src="https://ssr-contributions-svg.vercel.app/_/Jos260400?chart=3dbar&gap=0.6&scale=2&flatten=0&theme=green&period=yearly&format=svg&weeks=52&dark=true&y=2025"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jos260400/Jos260400/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jos260400/Jos260400/output/github-contribution-grid-snake.svg"/>
+    <img alt="snake animation" src="https://raw.githubusercontent.com/Jos260400/Jos260400/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://ssr-contributions-svg.vercel.app/_/Jos260400?chart=3dbar&gap=0.6&scale=2&flatten=0&theme=green&period=yearly&format=svg&weeks=52&dark=true&y=2024"/>
+  <img src="https://ghchart.rshah.org/00ff00/Jos260400" alt="Jos260400's contribution chart"/>
 </p>
 
 <p align="center">
-  <img src="https://ssr-contributions-svg.vercel.app/_/Jos260400?chart=3dbar&gap=0.6&scale=2&flatten=0&theme=green&period=yearly&format=svg&weeks=52&dark=true&y=2023"/>
+  <img src="https://komarev.com/ghpvc/?username=Jos260400&label=Profile%20views&color=brightgreen&style=for-the-badge"/>
 </p>
 
 <p align="center">
