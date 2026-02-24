@@ -41,3 +41,74 @@ Welcome to my world
 
 ## Who am I?
 ```python
+class WhoAmI:
+    user = 'José Ovando'
+    current_edu = "UVG & Galileo"
+    hobbies = [
+        'DJing',
+        'Music Producer',
+        'Reading and watching Sci-Fi '
+    ]
+
+    def getCity():
+        return Hyderabad_India()
+
+    def Ambitions():
+        LearnKorean()
+        FinishMyNovel()
+        # And more  ;)
+```
+
+## Current Works
+* I am working for new ideas and inventions.
+
+-------
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jos260400&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jos260400&layout=compact&langs_count=10&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jos260400&theme=chartreuse-dark&hide_border=true" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Jos260400&theme=matrix&no-frame=true&row=2&column=4&margin-w=15&margin-h=15"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jos260400&theme=high-contrast&hide_border=true&area=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jos260400&theme=github_dark"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jos260400&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jos260400&theme=github_dark"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jos260400&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Jos260400&theme=github_dark&utcOffset=-6"/>
+</p>
+
+## 📅 Contributions by Year
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jos260400&show_icons=true&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=2025%20Contributions&from_date=2025-01-01&to_date=2025-12-31" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Jos260400&show_icons=true&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=2024%20Contributions&from_date=2024-01-01&to_date=2024-12-31" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jos260400&show_icons=true&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=2023%20Contributions&from_date=2023-01-01&to_date=2023-12-31" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Jos260400&show_icons=true&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=2022%20Contributions&from_date=2022-01-01&to_date=2022-12-31" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Jos260400&label=Profile%20views&color=brightgreen&style=for-the-badge"/>
+</p>
