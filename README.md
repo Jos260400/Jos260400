@@ -67,20 +67,7 @@ class WhoAmI:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jos260400&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jos260400&layout=compact&langs_count=10&theme=chartreuse-dark&hide_border=true" height="180"/>
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=Jos260400&theme=chartreuse-dark&hide_border=true" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Jos260400&theme=matrix&no-frame=true&row=2&column=4&margin-w=15&margin-h=15"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jos260400&theme=high-contrast&hide_border=true&area=true"/>
 </p>
 
 <p align="center">
