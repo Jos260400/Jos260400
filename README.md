@@ -6,7 +6,7 @@
 
 [![Linkedin Badge](https://img.shields.io/badge/-Fernando%20Garavito-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernando-jos%C3%A9-garavito-ovando-3217392a9/)](https://www.linkedin.com/in/fernando-jos%C3%A9-garavito-ovando-3217392a9/) [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joseovando042000@gmail.com)](mailto:joseovando042000@gmail.com)
 
-Welcome to my humble abode in the Digital World.. There are 10 types of people in the world. Those who get Binary and those who don't.
+Welcome to my world
 
 ## :computer: Technologies I Like
 * TI
