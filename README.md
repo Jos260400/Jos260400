@@ -97,20 +97,3 @@ class WhoAmI:
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Jos260400&theme=github_dark&utcOffset=-6"/>
 </p>
 
-## 📅 Contributions
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jos260400/Jos260400/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jos260400/Jos260400/output/github-contribution-grid-snake.svg"/>
-    <img alt="snake animation" src="https://raw.githubusercontent.com/Jos260400/Jos260400/output/github-contribution-grid-snake-dark.svg"/>
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/00ff00/Jos260400" alt="Contribution chart"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jos260400&label=Profile%20views&color=brightgreen&style=for-the-badge"/>
-</p>
