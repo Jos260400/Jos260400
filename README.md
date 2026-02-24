@@ -1,4 +1,4 @@
-### I am, [Jose Ovando]<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+### I am, José Ovando<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 <img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/matrix.gif' alt='Awesome Matrix Code' align='right'/>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Fernando%20Garavito-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernando-jos%C3%A9-garavito-ovando-3217392a9/)](https://www.linkedin.com/in/fernando-jos%C3%A9-garavito-ovando-3217392a9/) [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joseovando042000@gmail.com)](mailto:joseovando042000@gmail.com)
