@@ -1,0 +1,61 @@
+name: Auto Sync on Changes
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch: # También puedes lanzarlo manualmente
+
+jobs:
+  auto-tasks:
+    runs-on: self-hosted  # Usa tu runner JOSÉOVANDO (Windows x64)
+
+    steps:
+      # 1. Descarga el código más reciente
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Historial completo
+
+      # 2. Muestra info del commit que disparó el workflow
+      - name: Info del cambio detectado
+        shell: powershell
+        run: |
+          echo "==============================="
+          echo "  Cambio detectado en el repo"
+          echo "==============================="
+          echo "Repositorio : ${{ github.repository }}"
+          echo "Usuario     : ${{ github.actor }}"
+          echo "Rama        : ${{ github.ref_name }}"
+          echo "Commit      : ${{ github.sha }}"
+          echo "Mensaje     : ${{ github.event.head_commit.message }}"
+          echo "Fecha       : $(Get-Date)"
+
+      # 3. Sincroniza (pull) los últimos cambios del remoto
+      - name: Sync - Pull últimos cambios
+        shell: powershell
+        run: |
+          git config user.name  "Jos260400"
+          git config user.email "Jos260400@users.noreply.github.com"
+          git fetch origin
+          git pull origin ${{ github.ref_name }} --rebase
+          echo "✅ Repositorio sincronizado correctamente."
+
+      # 4. Lista los archivos modificados en este push
+      - name: Archivos modificados
+        shell: powershell
+        run: |
+          echo "--- Archivos cambiados en este push ---"
+          git diff --name-only HEAD~1 HEAD || echo "(Primer commit, sin diff previo)"
+
+      # 5. Notificación de éxito
+      - name: Resultado final
+        shell: powershell
+        run: |
+          echo "🎉 Workflow completado con éxito en el runner JOSÉOVANDO"
+          echo "Hora de finalización: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
