@@ -1,13 +1,41 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
-on: [push]
+name: Auto Pull on Changes
+run-name: ${{ github.actor }} triggered an auto pull 🔄
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
 jobs:
-  check-bats-version:
+  auto-pull:
     runs-on: self-hosted
+
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v4
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
         with:
-          node-version: '20'
-      - run: npm install -g bats
-      - run: bats -v
+          fetch-depth: 0
+
+      - name: Configurar Git
+        shell: cmd
+        run: |
+          git config user.name "Jos260400"
+          git config user.email "Jos260400@users.noreply.github.com"
+
+      - name: Pull ultimos cambios
+        shell: cmd
+        run: |
+          git fetch origin
+          git pull origin ${{ github.ref_name }}
+          echo Pull exitoso en rama: ${{ github.ref_name }}
+
+      - name: Confirmar estado actual
+        shell: cmd
+        run: |
+          echo Ultimo commit:
+          git log -1 --oneline
+          echo.
+          echo Archivos en el repo:
+          git status
